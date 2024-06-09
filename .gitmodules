@@ -1,0 +1,3 @@
+[submodule "municipios_api"]
+	path = municipios_api
+	url = https://github.com/donnavansouza/Ceara-Municipalities-API
