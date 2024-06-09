@@ -1,13 +1,12 @@
-### Reports App w/ FastAPI
+# Reports App w/ FastAPI
 
-
-## Each API has its own README file providing specific instructions and documentation on how to run and use them. Please follow the instructions in each README file to set up and run the corresponding component of the project.
+Each API has its own README file providing specific instructions and documentation on how to run and use them. Please follow the instructions in each README file to set up and run the corresponding component of the project.
 
 ## This project consists of two FastAPI applications and a frontend Vite.js application:
 
-### Municipality API: Provides endpoints to query Brazil's State Ceará municipalities data based on various criteria, including name, population, and IDHM of different years, and starting character.
-### Reports API: Manages reports related to municipalities in Brazil's State of Ceará. It interacts with an external API that provides data about Ceará municipalities.
-### Frontend Application: A Vite.js frontend application that consumes data from the Municipality and Reports APIs and interacts with both to provide a user interface for viewing and managing municipality reports.
+- **Municipality API: Provides endpoints to query Brazil's State Ceará municipalities data based on various criteria, including name, population, and IDHM of different years, and starting character.**
+- **Reports API: Manages reports related to municipalities in Brazil's State of Ceará. It interacts with an external API that provides data about Ceará municipalities.**
+- **Frontend Application: A Vite.js frontend application that consumes data from the Municipality and Reports APIs and interacts with both to provide a user interface for viewing and managing municipality reports.**
 
 
 
