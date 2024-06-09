@@ -11,7 +11,13 @@ Each API has its own README file providing specific instructions and documentati
 
 
 ## How to Run the Application
-- **To run the entire application, make sure you have Docker installed on your machine. Then, navigate to the root directory of the project and execute the following commands:**
+### Once you have cloned or downloaded the main branch, you need to also fetch the Municipalities API, that i on another repository. You can do this just navigating to the root of the directory ant executing the following commmands:
+- git submodule init
+- git submodule update
+
+### After that, the Municipalities API should be cloned, and you have all that is needed to run this project.
+
+### To run the entire application, make sure you have Docker installed on your machine. Then, navigate to the root directory of the project and execute the following commands:
 
 - docker-compose up --build
 
