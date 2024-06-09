@@ -1,0 +1,70 @@
+
+.displayReports {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.container{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.card {
+  background: #fff;
+  border-radius: 7px;
+  padding: 10px;
+  width: 30%;
+  margin: 16px;
+  float: left;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+  height: 210px;
+}
+
+.card h1 {
+  font-size: 1.5em;
+  margin-bottom: 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+.card p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+}
+
+.card button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: #100730;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+
+.editForm{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  float: right;
+  margin: 20px 0;
+  box-shadow: none;
+}
+
+.btn{
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  border-radius: 0;
+  box-shadow: none;
+}

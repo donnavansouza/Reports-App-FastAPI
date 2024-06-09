@@ -1,0 +1,23 @@
+# Ignore node_modules as dependencies will be installed inside the container
+node_modules
+
+# Ignore build output directory
+dist
+
+# Ignore local environment variables file
+.env
+
+# Ignore log files
+npm-debug.log
+yarn-error.log
+
+# Ignore any other unwanted files or directories
+.DS_Store
+*.log
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
