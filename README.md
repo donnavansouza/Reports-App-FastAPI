@@ -11,7 +11,7 @@ Each API has its own README file providing specific instructions and documentati
 
 
 ## How to Run the Application
-### Once you have cloned or downloaded the main branch, you need to also fetch the Municipalities API, that i on another repository. You can do this just navigating to the root of the directory ant executing the following commmands:
+### Once you have cloned or downloaded the main branch, you need to also fetch the Municipalities API, that is on another repository. You can do this just navigating to the root of the directory ant executing the following commmands:
 - git submodule init
 - git submodule update
 
